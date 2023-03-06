@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { SideBar } from "../components/sidebar.js";
-import { ContentA } from "../components/Contents/contentA.js";
+import { Content } from "../components/content.js";
 import * as style from "./style.js";
 
 export const Main = () => {
@@ -10,7 +10,7 @@ export const Main = () => {
   return (
     <style.MainContainer>
       <SideBar pages={pages} page={page} setPage={setPage} />
-      <ContentA />
+      <Content page={page}/>
     </style.MainContainer>
   );
 };

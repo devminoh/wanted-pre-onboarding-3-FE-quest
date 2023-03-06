@@ -14,6 +14,10 @@ export const SideBarContainer = styled.div`
   height: 100vh;
   div{
     margin-bottom: 10px;
+    cursor: pointer;
+    &:hover{
+      color: blue;
+    }
   }
 `;
 
